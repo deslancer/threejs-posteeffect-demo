@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    overflow: hidden;
+}
+
+#experience{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.experience-canvas{
+    width: 100%;
+    height: 100%;
+}
+.btn_container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+}
+.effects_btn {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
